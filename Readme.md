@@ -52,8 +52,8 @@ API выглядит так: GET /?filename=xxx.txt ,где xxx.txt - произ
 
 которые запустят Postgres для сбора логов и Prometheus для метрик.
 
-Prometheus -> localhost:9090
-Postgres -> User ID=user;Password=password;Host=localhost;Port=5432;Database=postgres
+Prometheus -> localhost:9090\
+Postgres -> User ID=user;Password=password;Host=localhost;Port=5432;Database=postgres\
 PatronApp -> localhost:5000
 
 Сам проект необходимо собрать и запустить. Его я оставил вне docker-compose, чтобы можно было в режиме debug посмотреть как ведут себя потоки при чтении одного файла.
